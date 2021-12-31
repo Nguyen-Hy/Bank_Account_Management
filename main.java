@@ -378,8 +378,7 @@ public class main {
         Date startDate = null;
         try {
             startDate = simpleDateFormat.parse(scanner.nextLine());
-
-            System.out.println(startDate);
+            
         } catch (ParseException e) {
             e.printStackTrace();
         }
